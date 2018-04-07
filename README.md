@@ -6,4 +6,5 @@ Nginx users, don't forget to add autoindex on; to your example.com.conf file. Or
 EXAMPLE:
 
 root /var/www/mywebsite.com/htdocs/;
+
 autoindex on;
