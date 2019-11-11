@@ -8,9 +8,11 @@ cd /etc/nginx/sites-available,
 
 Example:
 ```
-**root /var/www/mywebsite.com;
-  autoindex on;**
+root /var/www/mywebsite.com;
+  autoindex on;
 ```
 
 After you modify your mywebsite.com file, restart nginx,
-**sudo service nginx restart**
+```
+sudo service nginx restart
+```
